@@ -6,6 +6,7 @@ DDPG: Deep Deterministic Policy Gradient, Soft Updates
 The following alghoritm was used as starting point
 https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum
 The algorithm was used to solve multi agent environment. 
+```
 - learning reate for actor was changed to 1e-3
 - agent and model networks were extended with batch normalizations 
 - agent was extended to support multiple agents
@@ -18,7 +19,7 @@ e.g.
 - gradient clipping for training the critic network was used but didn't get expected results
 - couple of different strategies to update actor and critic networks were used but results were not good enough
 - dropout was used in both critic and actor networks but it didn't bring expected benefits
-
+```
 
 ## Hyperparameters
 ```
