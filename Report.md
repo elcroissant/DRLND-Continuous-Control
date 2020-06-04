@@ -38,10 +38,10 @@ WEIGHT_DECAY = 0.0     # L2 weight decay
 # Plot of Rewards
 
 ![](plot.png)
-
+```
 Episode 61	Score: 37.58	Average Score: 30.01
 Environment solved in -39 episodes!	Average Score: 30.01
-
+```
 # Ideas for Future Work
 Verify how far we can get with the following alghoritms:
 - PPO: https://arxiv.org/pdf/1707.06347.pdf
